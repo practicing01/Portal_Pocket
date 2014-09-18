@@ -1,0 +1,960 @@
+<Scene>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:Pool_TableImageMap"
+		frame="0"
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 -0"
+		Size="100.000 60.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="30"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-50 30</Point>
+				<Point>50 30</Point>
+				<Point>50 -30</Point>
+				<Point>-50 -30</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball0ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball_White"
+		Visible="1"
+		Lifetime="0"
+		Position="-32.000 -0"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball10ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="24.000 -0"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball5ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="24.000 4"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball12ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="24.000 8"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball2ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="24.000 -4"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball7ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="24.000 -8"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball13ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="20.000 -6"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball15ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="20.000 -2"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball4ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="20.000 2"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball9ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="20.000 6"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball6ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="16.000 -4"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball8ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="16.000 -0"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball14ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="16.000 4"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball11ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="12.000 -2"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball3ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="12.000 2"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<Sprite
+		Image="@asset=Module_Portal_Pocket:ball1ImageMap"
+		frame="0"
+		BodyType="dynamic"
+		class="Class_Ball"
+		Visible="1"
+		Lifetime="0"
+		Position="8.000 -0"
+		Size="4.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2 2</Point>
+				<Point>2 2</Point>
+				<Point>2 -2</Point>
+				<Point>-2 -2</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<SceneObject
+		BodyType="static"
+		class="Class_Portal"
+		Visible="1"
+		Lifetime="0"
+		Position="-37.500 -0"
+		Size="4.000 36.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-2 18</Point>
+				<Point>2 18</Point>
+				<Point>2 -18</Point>
+				<Point>-2 -18</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Portal"
+		Visible="1"
+		Lifetime="0"
+		Position="37.500 -0"
+		Size="4.000 36.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-2 18</Point>
+				<Point>2 18</Point>
+				<Point>2 -18</Point>
+				<Point>-2 -18</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Portal"
+		Visible="1"
+		Lifetime="0"
+		Position="-18.000 20.5"
+		Size="36.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-18 2</Point>
+				<Point>18 2</Point>
+				<Point>18 -2</Point>
+				<Point>-18 -2</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Portal"
+		Visible="1"
+		Lifetime="0"
+		Position="-18.000 -20.5"
+		Size="36.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-18 2</Point>
+				<Point>18 2</Point>
+				<Point>18 -2</Point>
+				<Point>-18 -2</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Portal"
+		Visible="1"
+		Lifetime="0"
+		Position="18.000 -20.5"
+		Size="36.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-18 2</Point>
+				<Point>18 2</Point>
+				<Point>18 -2</Point>
+				<Point>-18 -2</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Portal"
+		Visible="1"
+		Lifetime="0"
+		Position="18.000 20.5"
+		Size="36.000 4.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-18 2</Point>
+				<Point>18 2</Point>
+				<Point>18 -2</Point>
+				<Point>-18 -2</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Pocket"
+		Visible="1"
+		Lifetime="0"
+		Position="-36.000 18.5"
+		Size="6.000 5.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-3 2.5</Point>
+				<Point>3 2.5</Point>
+				<Point>3 -2.5</Point>
+				<Point>-3 -2.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Pocket"
+		Visible="1"
+		Lifetime="0"
+		Position="-36.000 -18.5"
+		Size="6.000 5.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-3 2.5</Point>
+				<Point>3 2.5</Point>
+				<Point>3 -2.5</Point>
+				<Point>-3 -2.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Pocket"
+		Visible="1"
+		Lifetime="0"
+		Position="36.000 -18.5"
+		Size="6.000 5.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-3 2.5</Point>
+				<Point>3 2.5</Point>
+				<Point>3 -2.5</Point>
+				<Point>-3 -2.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Pocket"
+		Visible="1"
+		Lifetime="0"
+		Position="36.000 18.5"
+		Size="6.000 5.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-3 2.5</Point>
+				<Point>3 2.5</Point>
+				<Point>3 -2.5</Point>
+				<Point>-3 -2.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Pocket"
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 -19.25"
+		Size="4.000 6.500"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-2 3.25</Point>
+				<Point>2 3.25</Point>
+				<Point>2 -3.25</Point>
+				<Point>-2 -3.25</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class="Class_Pocket"
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 19.25"
+		Size="4.000 6.500"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-2 3.25</Point>
+				<Point>2 3.25</Point>
+				<Point>2 -3.25</Point>
+				<Point>-2 -3.25</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 -22.5"
+		Size="72.000 5.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-36 2.5</Point>
+				<Point>36 2.5</Point>
+				<Point>36 -2.5</Point>
+				<Point>-36 -2.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 22.5"
+		Size="72.000 5.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-36 2.5</Point>
+				<Point>36 2.5</Point>
+				<Point>36 -2.5</Point>
+				<Point>-36 -2.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="-39.500 0.5"
+		Size="5.000 41.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2.5 20.5</Point>
+				<Point>2.5 20.5</Point>
+				<Point>2.5 -20.5</Point>
+				<Point>-2.5 -20.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+	<SceneObject
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="39.500 0.5"
+		Size="5.000 41.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="0"
+		SceneGroup="0"
+		CollisionGroups="0"
+		CollisionLayers="0"
+		CollisionCallback="1"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<SceneObject.CollisionShapes>
+			<Polygon
+				Sensor="0">
+				<Point>-2.5 20.5</Point>
+				<Point>2.5 20.5</Point>
+				<Point>2.5 -20.5</Point>
+				<Point>-2.5 -20.5</Point>
+			</Polygon>
+		</SceneObject.CollisionShapes>
+	</SceneObject>
+</Scene>

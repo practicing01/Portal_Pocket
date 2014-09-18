@@ -1,0 +1,12 @@
+<ModuleDefinition
+	ModuleId="Module_Portal_Pocket"
+	VersionId="1"
+	Description="Portal Pocket"
+	ScriptFile="main.cs"
+	CreateFunction="create"
+    DestroyFunction="destroy">
+        <DeclaredAssets
+            Path="assets"
+            Extension="asset.taml"
+            Recurse="true"/>		
+</ModuleDefinition>
